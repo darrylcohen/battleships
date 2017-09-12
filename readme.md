@@ -32,7 +32,7 @@ The above approach could be overkill but it made sense when designing the game
 
 My Solution
 
-[Play the Game](https://darrylcohen.github.io/dot_to_dot/)
+[Play the Game](https://darrylcohen.github.io/battleships/)
 
 [Please visit my web site](https://www.darrylcohen.com.au)
 
