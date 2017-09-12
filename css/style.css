@@ -1,0 +1,254 @@
+body {
+  box-sizing: border-box;
+  width:100%;
+  text-align:center;
+  background-image: url("../images/bkg.jpg");
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+.container {
+  margin: 0 auto;
+}
+header {
+  margin-bottom:40px;
+}
+header h1 {
+  color:orange;
+  text-shadow: 2px 2px red;
+  letter-spacing:40px;
+  font-size:300%;
+
+}
+h2 {
+  letter-spacing: 10px;
+  font-size:200%;
+  color:orange;
+  text-shadow: 2px 2px red;
+  animation-name: example;
+  animation-duration: 5s;
+}
+h3 {
+  letter-spacing: 5px;
+  font-size:200%;
+  color:orange;
+  text-shadow: 2px 2px red;
+  margin:0;
+
+}
+.instructions {
+  width:80%;
+  border:3px solid orange;
+  margin: 0 auto;
+  background: linear-gradient(to right, yellow, orange, yellow, orange, yellow, orange);
+}
+ul {
+  text-align:left;
+}
+li {
+  color:black;
+  font-weight: bold;
+  /*text-shadow: 2px 3px black;*/
+  font-size:110%;
+  margin:30px;
+  letter-spacing: 4px;
+}
+.bottom {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  margin:0 auto;
+
+}
+.bottom button {
+  font-size:200%;
+  border-radius: 20%;
+  margin:10px;
+
+}
+.midContainer {
+  display:none;
+  min-height:600px;
+
+}
+.players {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+
+  color: orange;
+  margin:20px;
+
+}
+select {
+  margin:10px;
+}
+/*.players h3 {
+  color:orange;
+  text-shadow: 1px 3px black;;
+
+}*/
+.players p {
+  font-size:200%;
+  padding:0;
+  margin:0;
+
+}
+.players select {
+  margin-left:30px;
+  font-size:120%;
+  width:10%;
+
+}
+
+.gridSystem{
+  display: flex;
+  flex-direction : row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width:auto;
+}
+.playerGrid {
+  margin:10px;
+  min-width:400px;
+}
+.scoreGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight:bold;
+  background-color: black;
+  color: white;
+  border : 1px solid yellow;
+}
+.score {
+  width:19%;
+}
+.playerName {
+  color:white;
+  background-color: black;
+  font-weight:bold;
+  letter-spacing: 5px;
+  font-size: 120%;
+  border: 1px solid black;
+}
+.mainGrid {
+  background-color: black;
+}
+.topGrid {
+  width:100%;
+  display: flex;
+  flex-direction : row;
+  text-align:center;
+  border-bottom : 3px solid black;
+  background: linear-gradient(to bottom right, yellow, red);
+  color:black;
+
+}
+.gridLeft {
+  width:36px;
+  text-align:center;
+  border-right : 3px solid black;
+  background: linear-gradient(to bottom right, yellow, red);
+  color:black;
+
+
+}
+.gridRight {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+
+}
+.lowerGrid {
+  display:flex;
+  flex-direction : row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+    /*border:3px solid green;*/
+}
+.gridPostions{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+
+}
+.columnLetter {
+  font-weight: bold;
+  width:36px;
+  border:1px solid black;
+}
+.rowNumber {
+  font-weight: bold;
+  height: 20px;
+  width:36px;
+  border: 1px solid black;
+
+}
+.missileLanded {
+  background: linear-gradient(to bottom right, red, yellow);
+  width:38px;
+  height:20px;
+  line-height:20px;
+  font-weight:bold;
+  color: white;
+  border: 1px solid black;
+  font-size:80%;
+  padding-bottom:5px;
+  text-align: center;
+}
+.missileMist {
+  width:38px;
+  height:20px;
+  font-weight:bold;
+  background: linear-gradient(to bottom right, lightblue, blue);
+  border: 1px solid black;
+  text-align: center;
+
+}
+.gridPosition {
+  width:38px;
+  height:20px;
+  line-height:20px;
+  color: black;
+  background-color: lightblue;
+  border: 1px solid black;
+  text-align: center;
+}
+.gridPosition:hover {
+  background-color: red;
+  border-radius: 50%;
+}
+.message {
+  font-size:200%;
+  color : balck;
+  background-color: lightgrey;
+
+}
+@keyframes example {
+    from {color: red;}
+    to {color: yellow;}
+    from {font-size: 10%;}
+    to {font-size: 200%;}
+}
+footer {
+	background-color: black;
+	color: white;
+  font-size:150%;
+  margin-top:60px;
+  padding:15px;
+}
+/*.rowRight {
+  flex-direction : row;
+  flex-wrap: wrap;
+
+
+}*/
+/*.grids {
+  width: 25%;
+  display: flex;
+  flex-direction : row;
+  flex-wrap: wrap;
+  border:2px solid red;
+}*/
