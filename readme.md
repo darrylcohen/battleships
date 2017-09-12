@@ -30,8 +30,6 @@ I wanted to split the program based on functionality and used objects.
 
 The above approach could be overkill but it made sense when designing the game
 
-My Solution
-
 [Play the Game](https://darrylcohen.github.io/battleships/)
 
 [Please visit my web site](https://www.darrylcohen.com.au)
