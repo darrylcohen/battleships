@@ -5,7 +5,7 @@ Darryl Cohen
 
 <img src=https://ibin.co/3a6CVEryWNjM.jpg width="300">
 
-The Game
+## The Game
 
 This version of Battleships is played by 2 or more people. Each player has their
 own grid with the ships randomly placed on the grid by the computer.
@@ -16,7 +16,7 @@ There is 1 battleship of 4 squares, a cruiser of 3 squares, a destroyer of
 Players take turns to find their ships. The player who bombs all their ships first
 is the winner.
 
-The Approach
+## The Approach
 
 I wanted to split the program based on functionality and used objects.
 ..* Player
